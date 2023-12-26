@@ -41,7 +41,7 @@
     <li>Run the script using the command:</li>
 </ol>
 
-<pre><code>python script_name.py</code></pre>
+<pre><code>organize_downloads.py</code></pre>
 
 <h2>How it Works</h2>
 
