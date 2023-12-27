@@ -3,13 +3,30 @@ from pathlib import Path
 
 # Mapping of directories to their corresponding file extensions
 DIRECTORIES = {
-    "AI": [".safetensors"],
-    "HTML": [".html5", ".html", ".htm", ".xhtml"],
-    "IMAGES": [".jpeg", ".jpg", ".tiff", ".gif", ".bmp", ".png", ".bpg", "svg",
-               ".heif", ".psd", ".svg", ".jfif"],
-    # ... [Other directory mappings] ...
-    "3D Modeling": [".blend", ".blend1"]
-}
+        "AI": [".safetensors"],
+    "HTML": [".html5", ".html", ".htm", ".xhtml"], 
+    "IMAGES": [".jpeg", ".jpg", ".tiff", ".gif", ".bmp", ".png", ".bpg", "svg", 
+               ".heif", ".psd", ".svg", ".jfif"], 
+    "VIDEOS": [".avi", ".flv", ".wmv", ".mov", ".mp4", ".webm", ".vob", ".mng", 
+               ".qt", ".mpg", ".mpeg", ".3gp"], 
+    "DOCUMENTS": [".oxps", ".epub", ".pages", ".docx", ".doc", ".fdf", ".ods", 
+                  ".odt", ".pwi", ".xsn", ".xps", ".dotx", ".docm", ".dox", 
+                  ".rvg", ".rtf", ".rtfd", ".wpd", ".ppt", 
+                  "pptx"], 
+    "EXCEL": [".xlsx",".xls"],
+    "ARCHIVES": [".a", ".ar", ".cpio", ".iso", ".tar", ".gz", ".rz", ".7z", 
+                 ".dmg", ".rar", ".xar", ".zip", ".tgz"], 
+    "AUDIO": [".aac", ".aa", ".aac", ".dvf", ".m4a", ".m4b", ".m4p", ".mp3", 
+              ".msv", "ogg", "oga", ".raw", ".vox", ".wav", ".wma"], 
+    "PLAINTEXT": [".txt", ".in", ".out", ".csv"], 
+    "PDF": [".pdf"], 
+    "PYTHON": [".py", "whl"], 
+    "XML": [".xml"], 
+    "EXE": [".exe", ".msi"], 
+    "SHELL": [".sh"], 
+    "ANDROID": [".apk"], 
+    "3D Modeling": [".blend",".blend1"]
+ }
 
 # Flatten the DIRECTORIES dictionary for easy lookup
 FILE_FORMATS = {
