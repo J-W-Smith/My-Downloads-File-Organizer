@@ -35,7 +35,7 @@ FILE_FORMATS = {
     for file_format in file_formats
 }
 
-def organize_junk():
+def organize_downloads():
     """
     Organize files in the current directory based on their file extensions.
 
@@ -71,4 +71,4 @@ def organize_junk():
 
 if __name__ == "__main__":
     # Entry point of the script: Organize files in the current directory
-    organize_junk()
+    organize_downloads()
